@@ -6,11 +6,10 @@ let lima = 500;
 let tijera = 1200;
 let costoEnvio = 500;
 
- 
 
 alert("Bienvenido a Kioskito Peluquero");
 
-let producto = prompt("Paracomprar algunos de nuetros producto\nElija la opcion que desee..\n-Shampoo\n-Acondicionador\n-Planchita\n-Lima\n-Tijera\n(presione aceptar para seguir comprando o ingrese 'fin' para salir)");
+let producto = prompt("Para comprar algunos de nuetros producto\nElija la opcion que desee..\n-Shampoo\n-Acondicionador\n-Planchita\n-Lima\n-Tijera\n(presione aceptar para seguir comprando o ingrese 'fin' para salir)");
 
 while (producto != "fin") {
 
